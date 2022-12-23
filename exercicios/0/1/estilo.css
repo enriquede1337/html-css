@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+#principal {
+    text-align: center;
+}
+#principal:hover{
+    color: red;
+}
+div > h1 {
+    display:none
+}
+main {
+    font-family: 'Nanum Pen Script', cursive;
+    color: #0DE04F;
+    background-color: #4C0994;
+    box-shadow: 0px 0px 0px 3px #373B8C;
+    width: 700px;
+    padding: 10px;
+    margin: auto;
+}
+body{
+    background-color: #000000;
+}
+.sub {
+    color: #109439;
+    font-size: 25px;
+    text-decoration: none;
+}
+.links{
+    color: #E09D3A;
+}
+.h2{
+    text-indent: 10px;
+    text-decoration: underline;
+    font-size: 30px;
+}
+div{
+    font-size: 30px;
+    text-align: center;
+}
+div:hover > h1{
+    display:block;
+}

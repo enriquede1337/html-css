@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'aaa';
+    src: url(aaa.otf);
+}
+header{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-image:linear-gradient(rgb(33, 143, 80), rgb(2  , 60, 26));
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0px;
+    background-color: rgb(231, 229, 193);
+}
+nav{
+    margin-bottom: -20px;
+    text-align: left;
+    margin-left: -20px;
+}
+nav > a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+nav > a:active {
+    color: rgb(255, 0, 170);
+}
+nav > a:hover {
+    background-color: rgba(45, 158, 93, 1);
+    color: rgb(0, 90, 35);
+    font-weight: 600;
+}
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1150px;
+    background-color: rgb(255, 255, 255);
+    text-align: auto;
+    padding-left: 15px;
+}
+main > h1{
+    margin-top: 0px;
+    font-family: 'aaa';
+    color: rgb(20, 53, 41);
+    padding-top: 10px;
+    text-align: justify;
+}
+main > p {
+    text-indent: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:  30px;
+}
+main > h2 {
+    background-image:linear-gradient(to right ,rgba(33, 143, 81, 0.549), rgb(255, 255, 255));
+    color: rgb(2, 51, 22);
+    font-family: 'aaa';
+    font-weight: 100;
+    text-indent: 10px;
+    
+}
+p > a{
+    text-decoration: none;
+    background-color: rgba(94, 198, 94, 0.623);
+    color: rgb(0, 73, 24);
+    font-weight: 600;
+    padding-left: 5px;
+    padding-right: px;
+}
+#a > a {
+    font-weight: 600;
+    background-color: white
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+.center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96%;
+}
+.center3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+article{
+    width: 1165px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(7, 75, 7);
+    justify-content: center
+}
+iframe{
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+#b>h1 {
+    background-color: rgb(8, 91, 19);
+    color: white;
+    text-align:left ;
+    margin-left: 20px;
+    width: 500px;
+    border-radius: 7px;
+}
+#b>p{
+    text-align: left;
+}

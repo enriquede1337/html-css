@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(205, 255, 203);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    background-color: rgb(4, 111, 0);
+}
+
+h2 {
+    background-color: rgb(53, 214, 47);
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com html</title>
+</head>
+<body>
+    <style>
+        a{
+    padding: 3px;
+    border: solid;
+    text-decoration: none;
+    }
+    a:visited {
+    color: rgb(131, 28, 24); 
+    }
+    a:hover{
+    text-decoration: underline;
+    color: rgb(131, 131, 24);}
+    </style>
+    <p>Para voltar <a href="../0/index2.html" rel="prev">CLIQUE AQUI</a></p>
+    <h1>inserindo videos hospedados localmente</h1>    
+    <p>esse video esta hospedado no meu proprio servidor</p>
+    <video width="500" poster="../ex011/pequena.png" controls loop> 
+        <source src="10.mp4" type="video/mp4">
+        <source src="10.webm" type="video/webm">
+        <source src="10.m4v" type="video/mp4">
+        <source src="10.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução <br> de video.</p>
+    </video>
+        <h1>Colocando video pelo youtube</h1>
+        <hr>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2McIBdqDEdA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

@@ -1,0 +1,71 @@
+body{
+    background-color: rgba(155, 22, 22, 0.842);
+}
+h1 {
+    background-color: rgb(0, 60, 255);
+    width: 300px;
+    height: 300px;
+
+    /*
+    border-width: 5px;
+    border-style: dashed;
+    border-color: red;
+
+     o comentario acima foi
+    resumido nesse short-line
+    */
+    border: 10px dashed red;
+     
+    /*
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
+     o comentario acima foi
+    resumido nesse short-line
+    */
+    padding: 10px;
+    
+    /*Sí as 4 posições (topo,direita,baixo,esquerda) 
+    forem iguais pode colocar só 1 */
+    
+    /*
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+     o comentario acima foi
+     resumido nesse short-line
+    */ 
+    margin: 10px;
+    
+    margin: auto;
+    
+    /*
+    outline-width: 3px;
+    outline-style: dashed;
+    outline-color: rgb(129, 255, 3);
+    
+     o comentario acima foi
+     resumido nesse short-line
+    */
+    outline: 3px dashed rgb(129, 255, 3);
+}
+p{
+    background-color: rgb(20, 157, 13);
+    width: 600px;
+    height: 70px;
+    border-width: 10px;
+    border-style: ridge;
+    border-color: aqua;
+
+
+}
+a {
+    color: blue;
+    border-width: 0px;
+    border-style: solid;
+    border-color: black;
+}
